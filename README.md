@@ -1,6 +1,10 @@
 # Vision-Basics
 
-This repository contains five computer vision exercises developed as part of the *Image Analysis and Computer Vision* course at ETH Zurich. The exercises cover a broad range of fundamental vision tasks, including image compression, segmentation, stereo reconstruction, and deep learning–based image classification. Together, they emphasize both algorithmic understanding and efficient implementation using classical methods and modern deep learning frameworks.
+This repository contains five computer vision exercises developed as part of the *Image Analysis and Computer Vision* course at ETH Zurich. The exercises cover a broad range of fundamental vision tasks, including image compression, segmentation, stereo reconstruction, and deep learning–based image classification. 
+
+### LIBRARIES 
+- numpy
+- pytorch 
 
 ## Exercise 1
 This exercise involves designing an image compression and reconstruction pipeline for noisy RGB images using a learned codebook from training data. The goal is to minimize reconstruction error while reducing storage and transmission cost, under explicit constraints on codebook size and compressed representation size.
